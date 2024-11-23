@@ -25,7 +25,7 @@ A feature-rich **React.js** application to design and generate professional busi
 ## Demo
 
 Check out a live demo of the app here:  
-[Live Demo](https://example.com)  
+[Live Demo](https://bussiness-card-maker.vercel.app/)  
 
 ## Installation
 
@@ -41,13 +41,14 @@ You can check if they're installed by running the following commands in your ter
 node -v
 npm -v
 
+```
 
 ## Steps
 
 1. **Clone the repository** to your local machine:
    ```bash
    git clone https://github.com/your-username/business-card-generator.git
-
+    ```
 
 2. Navigate to the project directory:
    ```bash
