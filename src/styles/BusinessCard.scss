@@ -1,0 +1,23 @@
+.BusinessCard{
+    border: 1px solid #ccf;
+    width: 450px;
+    height: 250px;
+    h3{
+        font-size: 2.5em;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #ccf;
+        margin: 65px 15px 15px 15px;
+    }
+    p{
+        font-size: 1.15em;
+        &.phone {
+            padding-top: 50px;
+            & , & + p{
+                font-size: 0.95em;  
+                // margin-top: 5px;
+
+            }
+            
+        }
+    }
+}

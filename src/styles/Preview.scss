@@ -1,4 +1,13 @@
 .Preview {
   width: 50%;
   padding: 0px 15px;
+  @import "BusinessCard";
+  text-align: center;
+  h2 , pre{
+    text-align: left  ;
+  }
+  &-wrapper{
+      display: inline-block;
+      margin-bottom: 15px;
+  }
 }
