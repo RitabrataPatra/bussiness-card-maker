@@ -11,9 +11,15 @@ A feature-rich **React.js** application to design and generate professional busi
 - [Installation](#installation)
 - [Usage](#usage)
 - [Tech Stack](#tech-stack)
-- [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
-- [License](#license)
+
+
+## Tech Stack
+
+- **React.js** - Front-end framework for building user interfaces
+- **Material UI** - UI components for fast development
+- **html2canvas** - For generating screenshots of the component for PNG/JPEG exports
+- **jsPDF** - For generating PDF documents
+- **React Router** - For routing and navigation (if applicable)
 
 ## Features
 
