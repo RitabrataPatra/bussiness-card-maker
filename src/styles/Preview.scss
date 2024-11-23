@@ -10,4 +10,9 @@
       display: inline-block;
       margin-bottom: 15px;
   }
+  &-actions{
+    display: flex;
+    justify-content: center ;
+    gap: 30px;
+  }
 }

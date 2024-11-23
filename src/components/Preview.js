@@ -1,5 +1,6 @@
 import React from 'react'
 import BusinessCard from './BusinessCard'
+import Button from '@mui/material/Button';
 
 const Preview = ({Values}) => {
   return (
@@ -9,7 +10,11 @@ const Preview = ({Values}) => {
       <div className="Preview-wrapper">
       <BusinessCard Values={Values}/> 
       </div>
-      
+      <div className="Preview-actions">
+      <Button variant="outlined" size='medium' color='primary'>Save as PDF</Button>
+      <Button variant="contained" size='medium'>Save as PNG</Button>
+      <Button variant="contained" size='medium' color='secondary'>Save as JPEG</Button>
+      </div>
     </section>
   )
 }
