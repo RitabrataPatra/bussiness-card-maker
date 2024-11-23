@@ -11,6 +11,13 @@
     }
     main{
         display: flex;
+        h2{
+            padding-bottom: 6px;
+            border-bottom: 2px solid #ccf;
+            margin-bottom: 16px;
+            font-size: 1.5em;
+            font-weight: 300;
+          }
         @import "Form";
         @import "Preview";
     }

@@ -1,8 +1,11 @@
 import React from 'react'
 
-const Preview = () => {
+const Preview = ({Values}) => {
   return (
-    <section className="Preview">Preview</section>
+    <section className="Preview">
+      <h2>Preview</h2>
+      <pre>{JSON.stringify(Values, null, 2)}</pre>
+    </section>
   )
 }
 
