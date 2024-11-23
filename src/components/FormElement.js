@@ -6,7 +6,7 @@ const FormElement = ({label , Value , id}) => {
     <div>
       <label>
         <strong>{label}</strong>
-        <input type="text" name={id} value={Value} />
+        <input type="text" name={id} value={Value} onChange={dummyOnChange} />
       </label>
     </div>
   );
