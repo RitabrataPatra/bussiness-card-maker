@@ -6,9 +6,9 @@ const Form = () => {
     <section className="Form">
         <h2>Enter your Details</h2>
         <form action="">
-            <FormElement id="name" label="Name"/>
-            <FormElement id="Designation" label="Designation"/>
-            <FormElement id="Phone" label="Phone"/>
+            {['Name' , 'Designation' , 'Phone' , "Email"].map((field , key)=>(
+               <FormElement id={field} label={field} keyup={key}/> 
+            ))}
         </form>
     </section>
   )
