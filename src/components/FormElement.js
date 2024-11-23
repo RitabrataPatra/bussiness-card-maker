@@ -1,11 +1,12 @@
 import React from "react";
 
-const FormElement = ({label , value , id}) => {
+const dummyOnChange = () => {};
+const FormElement = ({label , Value , id}) => {
   return (
     <div>
       <label>
         <strong>{label}</strong>
-        <input type="text" name={id} value={value} />
+        <input type="text" name={id} value={Value} />
       </label>
     </div>
   );

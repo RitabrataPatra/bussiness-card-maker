@@ -1,17 +1,22 @@
-import React from 'react'
-import FormElement from './FormElement'
+import React from "react";
+import FormElement from "./FormElement";
 
-const Form = () => {
+const Form = ({ onChange, Values }) => {
   return (
     <section className="Form">
-        <h2>Enter your Details</h2>
-        <form action="">
-            {['Name' , 'Designation' , 'Phone' , "Email"].map((field , key)=>(
-               <FormElement id={field} label={field} keyup={key}/> 
-            ))}
-        </form>
+      <h2>Enter your Details</h2>
+      <form action="" onChange={onChange}>
+        {Object.keys(Values).map((field, key) => (
+          <FormElement
+            id={field}
+            Value={Values[field]}
+            label={field}
+            key={key}
+          />
+        ))}
+      </form>
     </section>
-  )
-}
+  );
+};
 
-export default Form
+export default Form;
